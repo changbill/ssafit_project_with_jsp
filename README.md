@@ -76,7 +76,7 @@
 
 ### 운동영상에 대한 리뷰관리 백엔드 기능 구현 
 ---
-  Dto 코드
+  - Dto 코드
   
   ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/8664a259-b06b-427e-9d0a-d2fb048014e4)
 
