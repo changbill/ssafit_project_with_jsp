@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.ssafy.review.model.service.ReviewService;
 import com.ssafy.review.model.service.ReviewServiceImpl;
@@ -73,10 +74,27 @@ public class MainController extends HttpServlet {
 		response.sendRedirect("review?act=list");
 	}
 	
+	// 영상 상세 화면으로 이동
 	private void doDetail(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// 해당 영상 id 받아오기
 		String id = request.getParameter("id");
+
+		// 해당 영상 조회수 1 증가시키고 request에 담아주기
+		service.getBoard(id).setViewCnt(service.getBoard(id).getViewCnt()+1);
 		request.setAttribute("video", service.getBoard(id));
-		System.out.println(service.getBoard(id));
+
+		// 영상 리스트 재정렬 후 세션에 담아주기
+		List<Video> tmp = service.getList();
+		tmp.sort(new Comparator<Video>() {
+			@Override
+			public int compare(Video o1, Video o2) {
+				return o2.getViewCnt() - o1.getViewCnt();
+			}
+		});
+		HttpSession session = request.getSession();
+		session.setAttribute("list", tmp);
+		
+//		System.out.println(service.getBoard(id));
 		request.getRequestDispatcher("/WEB-INF/detail.jsp").forward(request, response);;
 	}
 	private void doRegist(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -90,10 +108,7 @@ public class MainController extends HttpServlet {
 	}
 
 	private void doReviewUpdateForm(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-//		int id = Integer.parseInt(request.getParameter("id"));
-//		Review review = service.getReview(id);
-//		request.setAttribute("review", review);		
+			throws ServletException, IOException {	
 		request.getRequestDispatcher("/WEB-INF/reviewUpdateForm.jsp").forward(request, response);
 	}
 
@@ -123,7 +138,9 @@ public class MainController extends HttpServlet {
 				return o2.getViewCnt() - o1.getViewCnt();
 			}
 		});
-				request.setAttribute("list", tmp);
+		
+		HttpSession session = request.getSession();
+		session.setAttribute("list", tmp);
 		request.getRequestDispatcher("/WEB-INF/index.jsp").forward(request, response);
 	}
 }

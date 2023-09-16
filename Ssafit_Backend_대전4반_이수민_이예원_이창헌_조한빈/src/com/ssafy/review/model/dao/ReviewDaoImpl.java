@@ -9,6 +9,7 @@ public class ReviewDaoImpl implements ReviewDao {
 
     private static ReviewDao reviewdao = new ReviewDaoImpl();
 
+    // 여러 리뷰 내용을 담아 관리할 리뷰 리스트
     private List<Review> reviewlist = new ArrayList<>();
 
     private ReviewDaoImpl() {
