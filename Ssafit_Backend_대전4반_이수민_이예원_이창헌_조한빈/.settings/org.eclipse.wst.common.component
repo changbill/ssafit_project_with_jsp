@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ssafit_대전4반_이수민_이예원_이창헌_조한빈">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/Ssafit_대전4반_이수민_이예원_이창헌_조한빈/build/classes"/>
+        <property name="context-root" value="Ssafit_대전4반_이수민_이예원_이창헌_조한빈"/>
+    </wb-module>
+</project-modules>
