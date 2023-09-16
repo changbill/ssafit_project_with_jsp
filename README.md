@@ -17,12 +17,23 @@
 ### 메인페이지 벡앤드 기능 구현
 ---
 메인 UI
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/7d0dcfce-7b9c-4ae2-b5f4-7c786686b27a)
 
-# Controller 코드 사진
-# Dao 코드 사진
-# Dto 코드 사진
+Controller 코드
+
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/c2bb7dcd-fbca-43e3-b588-f938370a2753)
+
+Dao 코드
+
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/4f0692cf-3891-4d16-833c-74618a16ad25)
+
+Dto 코드
+
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/368194dd-622b-472a-8312-94743b84284f)
+
 - 조회수 기준 영상 나열
+  
 
 - 운동부위별 영상 나열
 
