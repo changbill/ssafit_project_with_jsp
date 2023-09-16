@@ -32,11 +32,13 @@ Dto 코드
 Controller 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/170d4bb6-f608-40d3-b2d7-2de65df702be)
+
 : ????????
 
 Service 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cde5a16b-5ab9-489c-b046-aa347a6c419f)
+
 : Dao.updateViewCnt에서 조회수 더해주고 dao.selectOne를 통해 해당 영상 반환
 
 
@@ -44,6 +46,7 @@ Service 코드
 Dao 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/d36e1b94-a9b4-4a10-85c8-2ebee01982ee)
+
 : 조회수 하나 더해주기
 
 
@@ -51,6 +54,7 @@ Dao 코드
 
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/1d0af09c-fe3e-4414-ac11-d5c38d0883f4)
+
 : video 하나만 골라서 service로 전달
 
 
