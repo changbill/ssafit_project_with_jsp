@@ -21,36 +21,58 @@
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/7d0dcfce-7b9c-4ae2-b5f4-7c786686b27a)
 
 
+
 Dto 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/368194dd-622b-472a-8312-94743b84284f)
 
+
+
 - 조회수 기준 영상 나열
-  Controller 코드
-  - ????????
-  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/897a0341-e677-41e4-b794-38eeaf06d7d8)
+Controller 코드
 
-  Service 코드
-  - Dao.updateViewCnt에서 조회수 더해주고 dao.selectOne를 통해 해당 영상 반환
-  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cde5a16b-5ab9-489c-b046-aa347a6c419f)
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/170d4bb6-f608-40d3-b2d7-2de65df702be)
+: ????????
 
-  Dao 코드
-  - 조회수 하나 더해주기
-  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/34576ad6-11c1-46e9-91c5-f48232e58c6a)
+Service 코드
 
-  - video 하나만 골라서 service로 전달
-  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/1d0af09c-fe3e-4414-ac11-d5c38d0883f4)
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cde5a16b-5ab9-489c-b046-aa347a6c419f)
+: Dao.updateViewCnt에서 조회수 더해주고 dao.selectOne를 통해 해당 영상 반환
+
+
+
+Dao 코드
+
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/d36e1b94-a9b4-4a10-85c8-2ebee01982ee)
+: 조회수 하나 더해주기
+
+
+
+
+
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/1d0af09c-fe3e-4414-ac11-d5c38d0883f4)
+: video 하나만 골라서 service로 전달
+
+
 
   
 - 운동부위별 영상 나열
-  Controller 코드
-  
-  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/4b137e7d-3699-4d71-94c1-cde6f6f4f0ef)
+Controller 코드
 
-  Service 코드
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/4b137e7d-3699-4d71-94c1-cde6f6f4f0ef)
 
-  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f64cce1c-bfd8-405b-9f09-dbff4912942c)
+
+
+
+
+Service 코드
+
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f64cce1c-bfd8-405b-9f09-dbff4912942c)
   
+
+
+
+
 
 ### 운동영상에 대한 리뷰관리 백엔드 기능 구현 
 ---
