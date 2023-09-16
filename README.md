@@ -16,7 +16,8 @@
 
 ### 메인페이지 벡앤드 기능 구현
 ---
-# 메인페이지 UI 사진
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/7d0dcfce-7b9c-4ae2-b5f4-7c786686b27a)
+
 # Controller 코드 사진
 # Dao 코드 사진
 # Dto 코드 사진
