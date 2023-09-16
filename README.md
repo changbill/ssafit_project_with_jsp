@@ -35,13 +35,15 @@ Controller 코드
 
 : ????????
 
+<br>
+
 Service 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cde5a16b-5ab9-489c-b046-aa347a6c419f)
 
 : Dao.updateViewCnt에서 조회수 더해주고 dao.selectOne를 통해 해당 영상 반환
 
-
+<br>
 
 Dao 코드
 
