@@ -33,7 +33,7 @@ Controller 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/170d4bb6-f608-40d3-b2d7-2de65df702be)
 
-: ????????
+: Servlet에서 요청을 받아오고 id 파라미터를 통해 영상을 특정화 한 다음 service.getBoard에 보낸다. 이후 조회수 기준으로 영상 리스트를 재정렬해준 뒤 세션에 담아주고, detail.jsp로 포워딩해줬다.
 
 ---
 
@@ -57,7 +57,7 @@ Dao 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/1d0af09c-fe3e-4414-ac11-d5c38d0883f4)
 
-: video 하나만 골라서 service로 전달
+: video 하나 특정화해서 service로 전달
 
 ---
 
@@ -65,9 +65,9 @@ Dao 코드
 - 운동부위별 영상 나열
 Controller 코드
 
-![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/4b137e7d-3699-4d71-94c1-cde6f6f4f0ef)
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/b0ce5c9a-5fc8-450a-bd84-a657c00c7c03)
 
-: 
+: 전신, 상체, 하체, 복근 운동부위 별로 list를 만들어 이를 또 조회수 순으로 정렬시키고 세션으로 전달했습니다. 그리고 index.jsp로 포워딩했습니다.
 
 ---
 
@@ -75,7 +75,7 @@ Service 코드
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f64cce1c-bfd8-405b-9f09-dbff4912942c)
   
-: 
+: 전신, 상체, 하체, 복근 운동부위 별로 list를 만들어 컨트롤러에 반환했습니다.
 
 ---
 
@@ -86,14 +86,80 @@ Service 코드
   
   ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/8664a259-b06b-427e-9d0a-d2fb048014e4)
 
-
-- 운동 영상에 대한 리뷰관리 백엔드 기능 구현
-  Controller 코드
-  Dao 코드
+  
+---
 
 - 목록, 등록, 수정, 상세, 삭제 기능 구현
+
+- 등록
+
+  Review 작성 UI
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/e15b47e1-f2c7-4b58-b1a8-8075e685a37a)
+
+  ---
   Controller 코드
-  Dao 코드
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/9a9b8a02-3f90-4e93-8880-4bb559e4b116)
+
+  ---
+  service
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/d748e34a-2645-4191-b03b-1951a756bc6d)
+
+  ---
+  Dao
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/21f0095b-6204-44f9-94fc-029d18fb2df2)
+
+
+- 수정
+
+  Review 수정 UI
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/71c3ccd0-692c-4f4b-80a6-43f0c5c10881)
+
+  ---
+  Controller 코드
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/729b1fbf-71a4-46b6-9697-ddadaf76489d)
+
+  ---
+  service
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/1d10dab1-1728-473a-ac52-c78941adcba4)
+
+  ---
+  Dao
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/811cfe03-f1f6-4950-9aaf-52d152433ac3)
+
+
+- 상세
+
+  Review 상세화면 UI
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/c42709e5-f2ab-40bd-adf6-60edaa6c5d1b)
+
+  ---
+  Controller
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f54f04ad-1661-4ad1-ab09-e00d4fc9f849)
+
+  ---
+  service
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/2151211c-cfcd-41cf-8d6a-fa478e93e01d)
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/49195d93-f3b7-43bb-910b-cea852079e32)
+
+  ---
+  Dao
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/630f23de-6c2c-4a49-9254-17522c7e9920)
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/5b7db4b5-b380-4a82-9bd4-82440ea0c570)
+
+- 삭제
+
+  Controller
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/8d487bbc-3a74-4450-81eb-acba46e6cf1f)
+
+  ---
+  Service
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/26527566-1c69-453d-9155-3733b5bbdd4c)
+
+  ---
+  Dao
+  ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/2369b6a6-320e-46c6-a4a7-ee230da2caa2)
+
+  
 
 ### 소감문
 🦍 조한빈 : 협업 관리 툴에 대한 사용 방법과 프론트엔드단, 백엔드단에서 각각 처리해줘야 할 일에 대해 조금 더 이해할 수 있었다. 
