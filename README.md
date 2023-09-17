@@ -25,7 +25,8 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 ---
 - 메인 UI
 
-![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/7d0dcfce-7b9c-4ae2-b5f4-7c786686b27a)
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cd647cbd-5157-4672-b530-c0e97f48c0fb)
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/07255371-3f52-4bff-8f19-1eec42c6cb1c)
 
 ---
