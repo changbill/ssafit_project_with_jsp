@@ -1,0 +1,43 @@
+header{
+    height: 70px;
+    font-size: 1.5rem;
+}
+
+main{
+   	height: 100%;
+}
+body{
+    height: 100vh;
+    font-size: 1.1rem;
+}
+footer{
+    height: 70px;
+}
+
+.main-container{
+    width: 700px;
+    padding: 50px;
+    
+    
+}
+
+.footer-p{
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+}
+.sec-container{
+    align-items: center;
+    justify-content: center;
+	font-size : 1.0rem;
+}
+
+.header-left-title{
+	font-size : 1.0rem;
+}
+.video{
+	justify-content: center;
+}
+.form-downside{
+	padding : 50px;
+}
