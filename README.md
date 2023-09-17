@@ -23,7 +23,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ## 메인페이지 벡앤드 기능 구현
 ---
-- 메인 UI
+- 메인 UI <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cd647cbd-5157-4672-b530-c0e97f48c0fb)
 
@@ -31,14 +31,14 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ---
 
-- Dto 코드
+- Dto 코드 <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/368194dd-622b-472a-8312-94743b84284f)
 
 ---
 
 ### 조회수 기준 영상 나열
-- Controller
+- Controller <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/170d4bb6-f608-40d3-b2d7-2de65df702be)
 
@@ -46,7 +46,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ---
 
-- Service
+- Service <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/cde5a16b-5ab9-489c-b046-aa347a6c419f)
 
@@ -54,7 +54,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ---
 
-- Dao
+- Dao <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/d36e1b94-a9b4-4a10-85c8-2ebee01982ee)
 
@@ -66,7 +66,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
   
 ### 운동부위별 영상 나열
-- Controller
+- Controller <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/b0ce5c9a-5fc8-450a-bd84-a657c00c7c03)
 
@@ -74,7 +74,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ---
 
-- Service
+- Service <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f64cce1c-bfd8-405b-9f09-dbff4912942c)
   
@@ -85,7 +85,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ### 운동영상에 대한 리뷰관리 백엔드 기능 구현 
 ---
-- Dto 코드
+- Dto 코드 <br>
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/8664a259-b06b-427e-9d0a-d2fb048014e4)
 
@@ -94,70 +94,85 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ### 등록
 
-- Review 작성 UI
+- Review 작성 UI <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/e15b47e1-f2c7-4b58-b1a8-8075e685a37a)
 
 ---
-- Controller
+- Controller <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/9a9b8a02-3f90-4e93-8880-4bb559e4b116)
 
 ---
-- service
+- service <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/d748e34a-2645-4191-b03b-1951a756bc6d)
 
 ---
-- Dao
+- Dao <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/21f0095b-6204-44f9-94fc-029d18fb2df2)
 
 
 ### 수정
 
-- Review 수정 UI
+- Review 수정 UI <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/71c3ccd0-692c-4f4b-80a6-43f0c5c10881)
 
 ---
-- Controller 코드
+- Controller 코드 <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/729b1fbf-71a4-46b6-9697-ddadaf76489d)
 
 ---
-- service
+- service <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/1d10dab1-1728-473a-ac52-c78941adcba4)
 
 ---
-- Dao
+- Dao <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/811cfe03-f1f6-4950-9aaf-52d152433ac3)
 
 
 ### 상세
 
-- Review 상세화면 UI
+- Review 상세화면 UI <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/c42709e5-f2ab-40bd-adf6-60edaa6c5d1b)
 
 ---
-- Controller
+- Controller <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f54f04ad-1661-4ad1-ab09-e00d4fc9f849)
 
 ---
-- service
+- service <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/2151211c-cfcd-41cf-8d6a-fa478e93e01d)
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/49195d93-f3b7-43bb-910b-cea852079e32)
 
 ---
-- Dao
+- Dao <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/630f23de-6c2c-4a49-9254-17522c7e9920)
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/5b7db4b5-b380-4a82-9bd4-82440ea0c570)
 
 ### 삭제
 
-- Controller
+- Controller <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/8d487bbc-3a74-4450-81eb-acba46e6cf1f)
 
 ---
-- Service
+- Service <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/26527566-1c69-453d-9155-3733b5bbdd4c)
 
 ---
-- Dao
+- Dao <br>
+
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/2369b6a6-320e-46c6-a4a7-ee230da2caa2)
 
   
