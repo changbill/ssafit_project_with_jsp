@@ -26,6 +26,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 - 메인 UI
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/7d0dcfce-7b9c-4ae2-b5f4-7c786686b27a)
+![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/07255371-3f52-4bff-8f19-1eec42c6cb1c)
 
 ---
 
@@ -40,7 +41,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/170d4bb6-f608-40d3-b2d7-2de65df702be)
 
-: Servlet에서 요청을 받아오고 id 파라미터를 통해 영상을 특정화 한 다음 service.getBoard에 보낸다. 이후 조회수 기준으로 영상 리스트를 재정렬해준 뒤 세션에 담아주고, detail.jsp로 포워딩해줬다.
+: Servlet에서 요청을 받아오고 id 파라미터를 통해 영상을 특정화 한 다음 service.getBoard에 보냄. 이후 조회수 기준으로 영상 리스트를 재정렬해준 뒤 세션에 담아주고, detail.jsp로 포워딩
 
 ---
 
@@ -68,7 +69,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/b0ce5c9a-5fc8-450a-bd84-a657c00c7c03)
 
-: 전신, 상체, 하체, 복근 운동부위 별로 list를 만들어 이를 또 조회수 순으로 정렬시키고 세션으로 전달했습니다. 그리고 index.jsp로 포워딩했습니다.
+: 전신, 상체, 하체, 복근 운동부위 별로 list를 만들어 이를 또 조회수 순으로 정렬시키고 세션으로 전달. 그리고 index.jsp로 포워딩
 
 ---
 
@@ -76,7 +77,7 @@ Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로
 
 ![image](https://github.com/changbill/WebBackEnd_PJT/assets/128214736/f64cce1c-bfd8-405b-9f09-dbff4912942c)
   
-: 전신, 상체, 하체, 복근 운동부위 별로 list를 만들어 컨트롤러에 반환했습니다.
+: 전신, 상체, 하체, 복근 운동부위 별로 list를 만들어 컨트롤러에 반환.
 
 ---
 
