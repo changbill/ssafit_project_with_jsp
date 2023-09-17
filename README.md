@@ -5,22 +5,18 @@
 ## 프로젝트 기능 구현 설명
 ---
 ### 기능 구현
-1. 조회수 기준 영상 나열
-
+1. 조회수 기준 영상 나열 <br>
 video.model 패키지에서 dto, dao, service를 제작했습니다. dto에서는 id, title, part, channelName, url 변수를 만들어 영상의 id, 제목, 운동부위, 채널이름, url 데이터를 사용하고자 했습니다.
 dao에서 updateViewCnt라는 메소드를 만들어 조회수를 하나씩 더해주었고, 이를 service로, 그리고 다시 controller로 전달했습니다.
 controller에서는 service에서 받아온 영상 전체리스트를 조회수 기준으로 재정렬하는 알고리즘을 구현했고 이를 최종적으로 detail.jsp과 같은 view단에 전달했습니다.
 
-2. 운동부위별 영상 나열
-
+2. 운동부위별 영상 나열 <br>
 dao에서 selectPart라는 메소드를 만들어 dto변수 중에 part가 동일하다면 partList에 넣어주고 이를 반환하는 알고리즘을 만들었습니다. 이를 service로, 그리고 다시 controller로 전달했습니다. controller에서는 service에서 받아온 운동부위별 영상 리스트를 조회수 기준으로 재정렬하는 알고리즘을 구현했고 이를 최종적으로 index.jsp과 같은 view단에 전달했습니다.
 
-3. 운동 영상에 대한 리뷰관리 백엔드 기능 구현
-
+3. 운동 영상에 대한 리뷰관리 백엔드 기능 구현 <br>
 review.model 패키지를 따로 만들어 dto, dao, service를 제작했습니다. dto에서는 reviewId, title, writer, regDate 변수를 만들어 리뷰의 id, 제목, 작성자, 작성날짜 데이터를 사용하고자 했습니다.
 
-4. 목록, 등록, 수정, 상세, 삭제 기능 구현
-
+4. 목록, 등록, 수정, 상세, 삭제 기능 구현 <br>
 Dao에서 리뷰 등록, 수정, 삭제 기능을 구현했고 이를 service로, 그리고 다시 Controller로 전달해 최종적으로 view단인 detail.jsp, registerForm.jsp, reviewApplyForm.jsp, reviewUpdateForm.jsp 등으로 보냈습니다. 이러한 과정을 통해 사용자에 맞춰 화면속 요소가 변경되는 동적인 홈페이지를 만들 수 있었습니다.
 
 ---
