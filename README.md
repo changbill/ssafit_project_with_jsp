@@ -5,7 +5,7 @@
 ## 프로젝트 기능 구현 설명
 ---
 ### 기능 구현
-1. 조회수 기준 영상 나열
+1. 조회수 기준 영상 나열 <br>
 video.model 패키지에서 dto, dao, service를 제작했습니다. dto에서는 id, title, part, channelName, url 변수를 만들어 영상의 id, 제목, 운동부위, 채널이름, url 데이터를 사용하고자 했습니다.
 dao에서 updateViewCnt라는 메소드를 만들어 조회수를 하나씩 더해주었고, 이를 service로, 그리고 다시 controller로 전달했습니다.
 controller에서는 service에서 받아온 영상 전체리스트를 조회수 기준으로 재정렬하는 알고리즘을 구현했고 이를 최종적으로 detail.jsp과 같은 view단에 전달했습니다.
